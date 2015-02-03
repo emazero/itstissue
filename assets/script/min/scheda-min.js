@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".close-scheda").click(function(e){e.preventDefault(),$("#scheda-cont-wrapper").slideToggle("slow",function(){$("html, body").animate({scrollTop:$(".nav-loghi").offset().top-160},500)})}),$("#owl-demo").owlCarousel({navigation:!0,slideSpeed:300,paginationSpeed:400,singleItem:!0,pagination:!1})});
